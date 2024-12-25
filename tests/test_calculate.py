@@ -1,4 +1,4 @@
-from ..calcu import multi
+from calcu import multi
 
 
 def test_multi():
