@@ -1,9 +1,9 @@
-from calcu import multi
+import calcu
 
 
 def test_multi():
     a = 4
     b = 4
-    result = multi(a, b)
+    result = calcu.multi(a, b)
     assert result == 4 * 4
-    assert multi(9, 9) == 8
+    assert calcu.multi(9, 9) == 81
