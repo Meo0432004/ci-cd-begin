@@ -6,4 +6,4 @@ def test_multi():
     b = 4
     result = multi(a, b)
     assert result == 4 * 4
-    assert multi(9, 9) == 80
+    assert multi(9, 9) == 8
